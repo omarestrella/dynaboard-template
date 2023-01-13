@@ -20,6 +20,7 @@ nodes:
       height: '4'
       value: This is a title
       fontSize: 4xl
+      color: '#CD0A0AFF'
   48a3cf74-b38e-4ab9-8001-eadbb956bf62:
     type: PAGE
     name: index
@@ -40,3 +41,4 @@ nodes:
       width: '4'
       height: '4'
       value: This is some text
+      color: '#A67EFCFF'
