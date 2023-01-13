@@ -40,4 +40,4 @@ nodes:
       top: '5'
       width: '4'
       height: '4'
-      value: This is some text (and its changed)
+      value: This is some text
