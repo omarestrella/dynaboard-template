@@ -20,6 +20,7 @@ nodes:
       height: '4'
       value: This is a title
       fontSize: 4xl
+      color: green.700
   48a3cf74-b38e-4ab9-8001-eadbb956bf62:
     type: PAGE
     name: index
@@ -39,4 +40,4 @@ nodes:
       top: '5'
       width: '4'
       height: '4'
-      value: This is some text
+      value: This is some text (and its changed)
