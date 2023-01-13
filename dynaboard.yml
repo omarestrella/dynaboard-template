@@ -1,21 +1,42 @@
-runtimeVersion: 0.2.14
+runtimeVersion: 0.3.4
+name: Dynaboard Template
+description: ''
 type: com.dynaboard/project
-name: Example Template
-description: Optional description of your template
 nodes:
   ROOT_NODE:
-    id: ROOT_NODE
     type: ROOT_NODE
     name: ROOT_NODE
-    parentNodeID: ROOT_NODE
-    parentSlot: ROOT_NODE
     slots:
       pages:
-        - nodeID: bb071577-c4ea-4614-98e6-9ad31c233cbe
+        - nodeID: 48a3cf74-b38e-4ab9-8001-eadbb956bf62
           orderKey: a0
-  bb071577-c4ea-4614-98e6-9ad31c233cbe:
-    id: bb071577-c4ea-4614-98e6-9ad31c233cbe
+        - nodeID: a82fbe43-9cd8-4788-8d0a-5271e059aee0
+          orderKey: a1
+  30f4844a-1996-4a11-9bd4-5789192af185:
+    type: TEXT
+    name: text1
+    properties:
+      width: '4'
+      height: '4'
+      value: This is a title
+      fontSize: 4xl
+  48a3cf74-b38e-4ab9-8001-eadbb956bf62:
     type: PAGE
     name: index
-    parentNodeID: ROOT_NODE
-    parentSlot: pages
+    slots:
+      canvas:
+        - nodeID: be66d8fe-c358-4f7c-b7ac-e6ce786ae729
+          orderKey: Zz
+        - nodeID: 30f4844a-1996-4a11-9bd4-5789192af185
+          orderKey: a0
+  a82fbe43-9cd8-4788-8d0a-5271e059aee0:
+    type: PAGE
+    name: page1
+  be66d8fe-c358-4f7c-b7ac-e6ce786ae729:
+    type: TEXT
+    name: text2
+    properties:
+      top: '5'
+      width: '4'
+      height: '4'
+      value: This is some text
